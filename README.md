@@ -1,0 +1,63 @@
+<h1 align="center">Hi, I'm 林锦浩</h1>
+
+<p align="center">
+  软件工程本科在读 · AI 应用开发方向 · 正在寻找 AI 应用开发 / AI Agent 开发实习机会
+</p>
+
+<p align="center">
+  <a href="https://github.com/vitacool/campus-ai-agent">校园智能问答 Agent</a>
+  ·
+  <a href="https://github.com/vitacool/campus-notice-classifier">校园通知文本分类系统</a>
+</p>
+
+---
+
+### 关于我
+
+- 软件工程本科，关注 **AI 应用开发、RAG、Agent 工具路由、后端 API 与数据闭环**
+- 能够使用 **Python / FastAPI / PyTorch / SQLite / HTML / CSS / JavaScript** 完成小型 AI 应用从后端到页面的闭环实现
+- 正在补强方向：向量检索、模型评估、工程化部署、AI 产品中的反馈与纠错机制
+
+### 技术栈
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=222)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+### 重点项目
+
+#### [校园智能问答 Agent](https://github.com/vitacool/campus-ai-agent)
+
+面向校园通知、部门电话、宿舍报修、教务流程等高频问题的智能问答系统。
+
+- 使用 **FastAPI** 构建后端接口和 Agent 核心逻辑
+- 支持 **RAG 知识库检索、向量检索、关键词 fallback、后台知识库管理**
+- 使用 **SQLite** 记录问答日志与用户反馈，具备基础可维护性
+- 可接入通知分类服务，实现“先识别意图，再路由 Agent 工具”
+
+#### [校园通知文本分类与 Agent 路由系统](https://github.com/vitacool/campus-notice-classifier)
+
+基于 PyTorch 的校园通知文本分类系统，可作为 Agent 的前置意图识别模块。
+
+- 自建校园通知数据集，覆盖 **教务、讲座、竞赛、后勤、社团活动** 5 类场景
+- 使用 **PyTorch** 训练字符级文本分类模型，输出分类结果与置信度
+- 提供 **FastAPI 分类接口、Agent 路由接口、SQLite 预测记录、用户纠错、后台管理页面**
+- 增加模型评估页，展示准确率、Precision、Recall、F1、混淆矩阵等指标
+
+### 我正在学习和实践
+
+- RAG 与向量数据库在真实应用中的落地方式
+- AI Agent 的工具调用、意图识别与任务路由
+- 从 Demo 到可维护系统的后台管理、日志记录、反馈闭环
+- 机器学习模型训练、评估和 Web 服务化
+
+---
+
+<p align="center">
+  <sub>希望把 AI 能力做成真正可用、可维护、能解决实际问题的小系统。</sub>
+</p>
