@@ -10,6 +10,8 @@
   <a href="https://github.com/vitacool/campus-notice-classifier">校园通知文本分类系统</a>
   ·
   <a href="https://github.com/vitacool/resume-jd-matcher">智能简历匹配系统</a>
+  ·
+  <a href="https://github.com/vitacool/doc-rag-qa-system">AI 知识库问答系统</a>
 </p>
 
 ---
@@ -59,6 +61,15 @@
 - 基于关键词抽取、文本向量化和余弦相似度计算岗位匹配分
 - 使用 **SQLite** 保存历史分析记录，支持查看和删除
 - 前端页面支持示例填充、匹配结果展示、缺失能力提醒和简历修改建议
+
+#### [AI 知识库文档问答系统](https://github.com/vitacool/doc-rag-qa-system)
+
+面向企业内部知识库和校园文档的 RAG 问答系统，支持文档入库、向量检索、引用来源和反馈闭环。
+
+- 支持 TXT、Markdown、CSV、JSON、PDF 文档上传和手动新增知识
+- 实现文档解析、chunk 切分、Hashing Vector、余弦相似度检索和引用来源展示
+- 使用 **FastAPI + SQLite** 管理文档、文本块、问答日志和用户反馈
+- 提供知识库后台、问答页面和日志反馈页面，预留 FAISS/Chroma/Embedding 升级方向
 
 ### 我正在学习和实践
 
