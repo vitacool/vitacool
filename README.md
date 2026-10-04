@@ -8,6 +8,8 @@
   <a href="https://github.com/vitacool/campus-ai-agent">校园智能问答 Agent</a>
   ·
   <a href="https://github.com/vitacool/campus-notice-classifier">校园通知文本分类系统</a>
+  ·
+  <a href="https://github.com/vitacool/resume-jd-matcher">智能简历匹配系统</a>
 </p>
 
 ---
@@ -48,6 +50,15 @@
 - 使用 **PyTorch** 训练字符级文本分类模型，输出分类结果与置信度
 - 提供 **FastAPI 分类接口、Agent 路由接口、SQLite 预测记录、用户纠错、后台管理页面**
 - 增加模型评估页，展示准确率、Precision、Recall、F1、混淆矩阵等指标
+
+#### [智能简历匹配与岗位分析系统](https://github.com/vitacool/resume-jd-matcher)
+
+面向学生求职场景的 AI 应用，输入简历文本和岗位 JD，自动输出匹配度、缺失关键词和修改建议。
+
+- 使用 **FastAPI** 提供简历分析、历史记录和关键词接口
+- 基于关键词抽取、文本向量化和余弦相似度计算岗位匹配分
+- 使用 **SQLite** 保存历史分析记录，支持查看和删除
+- 前端页面支持示例填充、匹配结果展示、缺失能力提醒和简历修改建议
 
 ### 我正在学习和实践
 
